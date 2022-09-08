@@ -80,7 +80,7 @@ export default function IndexRoute() {
   useMagicLink();
 
   return (
-    <div className="flex h-full w-full flex-col overflow-scroll">
+    <div className="flex h-full w-full flex-col overflow-auto">
       <div className="sticky -top-48 mx-auto flex w-full text-center md:relative md:top-0 md:mt-2 md:h-[250px] md:w-11/12 md:max-w-[1000px] md:rounded-md md:border-x-8 md:border-r-primary-700 md:border-l-primary-100 md:text-left">
         <div className="hidden overflow-hidden md:flex md:h-full md:w-[300px] md:items-center">
           <img src="/images/The_SSH_Guy_Logo.png" className="w-full" />
