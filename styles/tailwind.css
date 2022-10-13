@@ -88,6 +88,7 @@
 
 :root {
   /* Theme CSS Variables */
+  /* COLORS */
   --color-white: 0 0% 100%;
 
   --color-gray-50: 210, 20%, 98%;
@@ -113,6 +114,23 @@
   --color-primary-900: 196, 64%, 24%;
 
   --color-secondary: 345 83% 41%;
+
+  /* SHADOWS */
+  --shadow-color: 0deg 0% 54%;
+  --shadow-elevation-low: 0.7px 0.3px 0.7px hsl(var(--shadow-color) / 0.61),
+    1.2px 0.5px 1.3px -1.7px hsl(var(--shadow-color) / 0.49),
+    3.3px 1.5px 3.5px -3.5px hsl(var(--shadow-color) / 0.37);
+  --shadow-elevation-medium: 0.7px 0.3px 0.7px hsl(var(--shadow-color) / 0.64),
+    2.1px 0.9px 2.2px -1.2px hsl(var(--shadow-color) / 0.54),
+    6.1px 2.7px 6.5px -2.3px hsl(var(--shadow-color) / 0.45),
+    16.3px 7.3px 17.4px -3.5px hsl(var(--shadow-color) / 0.36);
+  --shadow-elevation-high: 0.7px 0.3px 0.7px hsl(var(--shadow-color) / 0.67),
+    3.9px 1.8px 4.2px -0.6px hsl(var(--shadow-color) / 0.62),
+    8.5px 3.8px 9.1px -1.2px hsl(var(--shadow-color) / 0.56),
+    17px 7.6px 18.2px -1.7px hsl(var(--shadow-color) / 0.51),
+    31.8px 14.3px 34px -2.3px hsl(var(--shadow-color) / 0.45),
+    55.5px 24.9px 59.3px -2.9px hsl(var(--shadow-color) / 0.4),
+    90.6px 40.6px 96.8px -3.5px hsl(var(--shadow-color) / 0.34);
 }
 
 /* Global Styles */

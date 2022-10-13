@@ -37,6 +37,11 @@ module.exports = {
       },
     },
     extend: {
+      boxShadow: {
+        low: 'var(--shadow-elevation-low)',
+        medium: 'var(--shadow-elevation-medium)',
+        high: 'var(--shadow-elevation-high)',
+      },
       fontFamily: {
         sans: ['Rubik', ...defaultTheme.fontFamily.sans],
       },

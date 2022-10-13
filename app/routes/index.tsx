@@ -81,11 +81,11 @@ export default function IndexRoute() {
 
   return (
     <div className="flex h-full w-full flex-col overflow-auto">
-      <div className="sticky -top-48 mx-auto flex w-full text-center md:relative md:top-0 md:mt-2 md:h-[250px] md:w-11/12 md:max-w-[1000px] md:rounded-md md:border-x-8 md:border-r-primary-700 md:border-l-primary-100 md:text-left">
+      <div className="sticky -top-48 mx-auto flex w-full text-center shadow-medium md:relative md:top-0 md:mt-2 md:h-[275px] md:w-11/12 md:max-w-[750px] md:rounded-md md:border-x-8 md:border-r-primary-700 md:border-l-primary-100 md:text-left md:shadow-high">
         <div className="hidden overflow-hidden md:flex md:h-full md:w-[300px] md:items-center">
           <img src="/images/The_SSH_Guy_Logo.png" className="w-full" />
         </div>
-        <div className="flex w-full flex-col gap-6 border-b-8 border-b-primary-700 bg-gray-100 p-4 pt-12 md:flex-1 md:border-b-0 md:pt-8">
+        <div className="flex w-full flex-col justify-center gap-6 border-b-8 border-b-primary-700 bg-gray-50 p-4 pt-12 md:flex-1 md:border-b-0 md:pt-4">
           <div className="flex flex-col">
             <p className="text-2xl font-bold">TheSSHGuy</p>
             <p className="text-xl text-gray-600">Sai Hari</p>
